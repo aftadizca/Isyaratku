@@ -60,4 +60,5 @@ buck-out/
 
 .yalc/
 *.tflite
+*.bak
 ios/

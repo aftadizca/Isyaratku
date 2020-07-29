@@ -17,7 +17,7 @@ export default class App extends Component {
 
   processOutput({data}) {
     const probs = _.map(data, (item) => _.round(item / 255.0, 2));
-    console.log(probs);
+    console.log(data);
     const orderedData = _.chain(probs)
       .zip(outputs)
       .orderBy(0, 'desc')
@@ -41,10 +41,10 @@ export default class App extends Component {
 
   render() {
     const modelParams = {
-      file: 'quantized_model.tflite',
-      inputDimX: 128,
-      inputDimY: 128,
-      outputDim: 5,
+      file: 'modelquant.tflite',
+      inputDimX: 224,
+      inputDimY: 224,
+      outputDim: 26,
       freqms: 0,
     };
     return (
