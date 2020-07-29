@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"*.js": "javascriptreact"
+	},
+	"editor.formatOnSave": true,
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.bracketSpacing": true
+}
