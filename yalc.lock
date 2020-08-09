@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "react-native-camera-tflite": {
-      "signature": "f625d955c339732ead50b94d4ebcb4d2",
+      "signature": "c27caf924030b41e3d8b5c6a09e9d3ce",
       "file": true,
       "replaced": "https://github.com/aftadizca/react-native-camera-tflite.git"
     }
